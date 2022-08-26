@@ -6,7 +6,7 @@ end
 # a.save
 
 # The .new method creates a new instance in memory, but for that instance to persist, we need to save it. If we want to create a new instance and save it all in one go, we can use .create.
-a = Artist.create(name: 'Jon')
+a = Artist.new(name: 'Jon')
 a.age=30
 a.save
 
